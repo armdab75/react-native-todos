@@ -22,5 +22,5 @@ TodoItem.propTypes = {
   complete: PropTypes.bool,
   onClick: PropTypes.func,
 }
-
+/* test */
 export default TodoItem;
