@@ -8,3 +8,4 @@ it('Todo renders correctly', () => {
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
+/* info */
