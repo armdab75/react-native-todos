@@ -1,3 +1,18 @@
 language: node_js
 node_js:
   - "6"
+notifications:
+  slack:
+    on_success: always
+notifications:
+  email:
+    recipients:
+      - armen@stryng.com
+    on_success: always # default: change
+    on_failure: always # default: always
+notifications:
+  slack:
+    rooms:
+      - videodesk:pQr02aQfcYaVjoYc5wl7yyid#stryng
+    on_success: always # default: always
+    on_failure: always # default: always
